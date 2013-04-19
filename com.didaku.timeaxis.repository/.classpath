@@ -9,5 +9,7 @@
 	</classpathentry>
 	<classpathentry kind="src" path="/com.didaku.timeaxis.base"/>
 	<classpathentry kind="src" path="/com.didaku.timeaxis.entities"/>
+	<classpathentry kind="lib" path="/Library/mongo-2.10.0.jar"/>
+	<classpathentry kind="src" path="/com.didaku.common"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

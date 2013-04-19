@@ -7,5 +7,6 @@
 			<attribute name="javadoc_location" value="jar:platform:/resource/Library/commons.apache.org/commons-lang3-3.1/commons-lang3-3.1-javadoc.jar!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Library/mongo-2.10.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
