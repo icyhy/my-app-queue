@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"/>
+<title>1.b.48 发行注记</title><link href="zdoc.css" rel="stylesheet" type="text/css"/><link href="_rs/site.css" rel="stylesheet" type="text/css"/><script src="_rs/jquery.js" language="Javascript"></script><script src="_rs/site.js" language="Javascript"></script><script src="_rs/z.js" language="Javascript"></script>
+</head>
+<body><a name="top"></a>
+<div class="zdoc_header">1.b.48 发行注记</div>
+<div class="zdoc_author"><em>By:</em><b>zozoh</b><a href="mailto:zozohtnt@gmail.com">&lt;zozohtnt@gmail.com&gt;</a></div>
+<div class="zdoc_body">
+<ul class="zdoc_index_table">
+<li>
+<div><span class="num">1</span><a href="#1b48_发行注记">1.b.48 发行注记</a></div>
+</li>
+<li>
+<div><span class="num">2</span><a href="#问题修复">问题修复</a></div>
+</li>
+<li>
+<div><span class="num">3</span><a href="#质量">质量</a></div>
+</li>
+<li>
+<div><span class="num">4</span><a href="#文档">文档</a></div>
+</li>
+<li>
+<div><span class="num">5</span><a href="#主要贡献者名单">主要贡献者名单</a></div>
+</li>
+</ul>
+<div class="hr"><b></b></div>
+<h1><a name="1b48_发行注记"></a>1.b.48 发行注记</h1>
+<div style="float:right;"><a href="#top">Top</a></div>
+<p>大家好，天气暖和了，春天和 H1N9 一起在雾霾之后接踵而来。为了防止 <a href="http://wendal.net">Wendal</a>扁我，马上开始写发行注记 -_-!</p>
+<p>好久木有发布 Nutz 了，这个版也是个 bug fix 版，请大家安心升级。</p>
+<p>由于最近心情沉痛，就不多说什么了。让我们一起祝愿雅安的公民们度过这一劫。</p>
+<p>这个时候才知道自己弱小，如果 Nutz 这个松散的组织有一定人力物力的话，我们就 ... </p>
+<p>或许我们不能仅仅满足自己安逸的生活，或许我们应该再努力一些，这样，在需要的时候，我们才有能力为他人伸出帮助之手，而不是像现在这样心里发两个祝愿了事。</p>
+<p>------------------------------ Nutz 的下载地址的分隔线 -------------------------</p>
+<ul type="disc">
+<li>稳定版下载地址 : <a href="http://code.google.com/p/nutz/downloads/list">http://code.google.com/p/nutz/downloads/list</a></li>
+<li>日编译下载地址 : <a href="http://build.sunfarms.net/nutz/">http://build.sunfarms.net/nutz/</a></li>
+<li>Nutz 的主页 :  <a href="http://nutzam.com">http://nutzam.com</a></li>
+</ul>
+<div class="hr"><b></b></div>
+<h1><a name="问题修复"></a>问题修复</h1>
+<div style="float:right;"><a href="#top">Top</a></div>
+<p></p>
+<ul type="disc">
+<li><a href="https://github.com/nutzam/nutz/issues/435">Issue 435</a> 适配器应支持yyyy-MM-dd格式也可以转时间戳类型 <span style="color:#888888;">by</span> <b>winstars</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/434">Issue 434</a> SQLServer2005分页语句没有进行页内排序 <span style="color:#888888;">by</span> <b>happyday517</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/432">Issue 432</a> nutz-1.b.44升级nutz-1.b.47，原应用中的国际化失效，jsp取不到{msg....}等信息 <span style="color:#888888;">by</span> <b>naily</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/429">Issue 429</a> 在“7.8.4.1.2. 使用 JSTL”章节存在描述多余的文字，见截图！ <span style="color:#888888;">by</span> <b>glenzcs</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/428">Issue 428</a> AbstractJdbcExpert.setupEntityField(Connection conn, Entity&lt;?&gt; en)捕获的异常提示尴尬 <span style="color:#888888;">by</span> <b>gstripe</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/427">Issue 427</a> 分页 page 为0 没报错提示 <span style="color:#888888;">by</span> <b>xushoudong</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/422">Issue 422</a> LazyNutDao取Many和ManyMany会报错或进入死循环 <span style="color:#888888;">by</span> <b>ericktang</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/421">Issue 421</a> 完善@SessionBy在文档中的说明 <span style="color:#888888;">by</span> <b>kyo19</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/415">Issue 415</a> 增加ignoreResourceNotFound属性，指示是否可以忽略无法加载到的文件 <span style="color:#888888;">by</span> <b>hzl7652</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/410">Issue 410</a> v1.b.43+的Scans.rs2class方法存在严重的性能问题 <span style="color:#888888;">by</span> <b>lAndRaxeE</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/404">Issue 404</a> XmlIocLoader为支持app标签 <span style="color:#888888;">by</span> <b>lAndRaxeE</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/402">Issue 402</a> 异常去壳的策略疑问 <span style="color:#888888;">by</span> <b>liangx8</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/401">Issue 401</a> 某些情况下，XmlIocLoader会将一个xml文件加载两次 <span style="color:#888888;">by</span> <b>lAndRaxeE</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/396">Issue 396</a> 关于1.48版本中一对多同时插入master和pets的时候，pets中关联的masterID为0 的原因 <span style="color:#888888;">by</span> <b>jacking124</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/395">Issue 395</a> 在使用一对多的过程中同时删除master和pets的时候 <span style="color:#888888;">by</span> <b>jacking124</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/394">Issue 394</a> Sql 不支持类似于 EXEC [cms].dbo.sp_get_system_image 这样的语句 <span style="color:#888888;">by</span> <b>qinerg</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/392">Issue 392</a> Mirror.blankArrayArg() 无法处理以 byte[] 为参数的构造函数 <span style="color:#888888;">by</span> <b>biggates</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/372">Issue 372</a> @Ok("raw:json")返回的Content-Type值的问题 <span style="color:#888888;">by</span> <b>ywjno</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/366">Issue 366</a> NutMvc在android上启动不了,找不到default-chains.js文件 <span style="color:#888888;">by</span> <b>wendal</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/354">Issue 354</a> http无法设置timeout <span style="color:#888888;">by</span> <b>hujun82589167</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/352">Issue 352</a> Mvc 的入口函数参数支持 InputStream 和 Reader <span style="color:#888888;">by</span> <b>zozoh</b></li>
+<li><a href="https://github.com/nutzam/nutz/issues/343">Issue 343</a> 1.b.45转换为json时，报空指针 (getter方法调用失败) <span style="color:#888888;">by</span> <b>for5million</b></li>
+</ul>
+<div class="hr"><b></b></div>
+<h1><a name="质量"></a>质量</h1>
+<div style="float:right;"><a href="#top">Top</a></div>
+<p>共通过了 <span style="color:#FF00FF;"><b>826</b></span>  个单元测试用例,代码覆盖率达到 <span style="color:#FF00FF;">70%</span>(按line计算)</p>
+<p><img src="http://www.nutzam.com/wiki/img/emma.png"/></p>
+<p>Nutz.Dao 经测试在如下数据库上可以工作正常</p>
+<ul type="disc">
+<li><a href="http://www.h2database.com">H2</a></li>
+<li><a href="http://www.sqlite.org">SQLite</a> -- 仅有限支持事务操作</li>
+<li><a href="http://hsqldb.org">hsqldb</a></li>
+<li><a href="http://www.mysql.com">MySql</a></li>
+<li><a href="http://www.oracle.com">Oracle</a></li>
+<li><a href="http://www.postgresql.org">Postgresql</a></li>
+<li><a href="http://www.microsoft.com/hk/sql/default.mspx">SqlServer2005</a></li>
+<li><a href="http://www.microsoft.com/hk/sql/default.mspx">SqlServer2000</a></li>
+<li><a href="http://www.ibm.com/software/data/db2/">DB2</a></li>
+<li><a href="http://db.apache.org/derby/">Derby</a></li>
+</ul>
+<div class="hr"><b></b></div>
+<h1><a name="文档"></a>文档</h1>
+<div style="float:right;"><a href="#top">Top</a></div>
+<p></p>
+<ul type="disc">
+<li>增加 <a href="http://nutzam.com/doc/html/#mvc/session.html">Session机制</a></li>
+<li>修改 <a href="http://nutzam.com/doc/html/#ioc/events.html">事件监听</a></li>
+</ul>
+<div class="hr"><b></b></div>
+<h1><a name="主要贡献者名单"></a>主要贡献者名单</h1>
+<div style="float:right;"><a href="#top">Top</a></div>
+<p>贡献的种类:</p>
+<ul type="disc">
+<li>问题: 给项目的<a href="https://github.com/nutzam/nutz/issues">问题列表</a>汇报一个上的问题，并且该问题被本次发布包括</li>
+<li>博客: 在本版本开发期间，写过关于 Nutz 的文章，并被 <a href="http://code.google.com/p/nutz/wiki/appendix_resources">推荐列表</a>收录</li>
+<li>代码: 提交过至少一个修订</li>
+<li>Demo: 为 <a href="https://github.com/nutzam/nutzdemo">NutzDemo</a> 提交过代码</li>
+<li>文档: 提交过文档，在讨论区发帖或者通过文档上的留言指出现有文档存在的问题</li>
+<li>测试: 发布前，参与测试周发布人给出的任务</li>
+</ul>
+<p>如有遗漏,请提醒我们 ^_^</p>
+<p><span style="color:#CCCCCC;"><i>贡献列表，我已经写了一个小程序，根据 Issue 列表来自动统计...</i></span>   </p>
+<table border="1" cellspacing="2" cellpadding="4">
+<tr>
+<td> 贡献者          </td>
+<td> 问题 </td>
+<td> 博客 </td>
+<td> 支持 </td>
+<td> 代码 </td>
+<td> 示例 </td>
+<td> 文档 </td>
+<td> 测试 </td>
+</tr>
+<tr>
+<td> Aduan           </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> biggates        </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> conanca         </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> ericktang       </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> for5million     </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> glenzcs         </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> gstripe         </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> hujun82589167   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> hzl7652         </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> jacking124      </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> kyo19           </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> lAndRaxeE       </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> liangx8         </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> naily           </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> qinerg          </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> tom.wen         </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> wendal          </td>
+<td>  O   </td>
+<td>  O   </td>
+<td>  O   </td>
+<td>  O   </td>
+<td>  O   </td>
+<td>  O   </td>
+<td>  O   </td>
+</tr>
+<tr>
+<td> winstars        </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> xushoudong      </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> zozoh           </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> 冬天的温泉      </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  O   </td>
+</tr>
+<tr>
+<td> 鲁鲁            </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> 罗马钟          </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> 王成            </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+<tr>
+<td> 幸福的旁边      </td>
+<td>  O   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+<td>  -   </td>
+</tr>
+</table>
+<p>另外，很多朋友都在：</p>
+<ul type="disc">
+<li><a href="https://groups.google.bg/group/nutzam?hl=zh-CN">Nutzam 讨论区</a></li>
+<li><a href="http://qun.qq.com/air/#58444676">Nutz &amp; XBlink （58444676 超级群）</a></li>
+<li><a href="http://qun.qq.com/#jointhegroup/gid/60504323">Nutz在微笑 （60504323）超级群</a></li>
+<li><a href="http://qun.qq.com/#jointhegroup/gid/68428921">Nutz ② 群 （68428921）超级群</a></li>
+<li>GTalk 聊天群 <span style="color:#AAAAAA;"><i>添加帐号 nutzam@chatterous.com 为好友，然后发送 @join 指令</i></span></li>
+<li><a href="http://q.weibo.com/128323">Nutz的新浪微群</a></li>
+<li><a href="http://www.douban.com/group/339199/">Nutz的豆瓣小组</a></li>
+<li><a href="http://www.chatterous.com/nutzam/">Nutz的聊天室</a></li>
+</ul>
+<p>回答新手的问题，我们现在只能根据印象草草统计，贡献列表非常不完善。我们正在想办法，争取在不远的将来，能记录下来大家每一点一滴的付出 ^_^!</p>
+<p>欢迎访问<a href="http://nutzam.com">官网</a>,以获取 <a href="http://build.sunfarms.net/nutz/">最新的快照版</a> 和<a href="http://nutzam.com/doc/html/">用户手册</a></p>
+</div>
+<div class="zdoc_footer"><em>By:</em><b>zozoh</b><a href="mailto:zozohtnt@gmail.com">&lt;zozohtnt@gmail.com&gt;</a></div>
+</body>
+</html>

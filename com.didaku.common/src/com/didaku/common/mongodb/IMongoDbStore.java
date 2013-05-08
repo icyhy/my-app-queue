@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.mongodb.DBObject;
 
-public interface IMongoDbStore<T> {
+public interface IMongoDbStore<DBObject> {
     /// <summary>连接字符串
     /// </summary>
     String getConnection();
@@ -21,14 +21,18 @@ public interface IMongoDbStore<T> {
     /// </summary>
     /// <param name="query"></param>
     /// <returns></returns>
-    boolean Delete(DBObject  query);
+    boolean delete(DBObject  query);
 
     /// <summary>按指定的查询条件获取实体数量
     /// </summary>
-    long Count(DBObject mongoQuery);
+    long count(DBObject mongoQuery);
 
+    /*
+     * 返回所有实体数量
+     */
+    long count();
 
-    List<T> Find(DBObject mongoQuery);
+    List<DBObject> find(DBObject mongoQuery);
 
 
 }
